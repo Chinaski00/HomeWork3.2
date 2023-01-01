@@ -11,7 +11,7 @@ public class FirstController {
     }
 
     @GetMapping("/info")
-    public String learning(){
+    public String learnings(){
         return "Имя ученика: Костя. Название проекта: HomeWork3_2. Дата создания: 01.01.2023. Описание: проработка гет запросов.";
     }
 }
